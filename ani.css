@@ -1,0 +1,40 @@
+@keyframes changeposition{
+    20% {
+        margin-left: 95%;
+        margin-top: 0%;
+
+    }
+    40% {
+        margin-left:95%;
+    margin-top:45%;}
+    60%{
+        margin-top: 45%;
+        margin-left: 0%;
+    }    
+    80%{
+        margin-top: 0%;
+        margin-left: 0%;
+      
+
+    }
+    
+    100%{
+        margin: auto;
+        margin-left: 47.5%;
+        margin-top: 22.5%;
+    }
+ 
+
+
+    }
+
+p{
+    height: 85px;
+    width: 85px;
+    animation: 7s 2s changeposition  ;
+
+}
+.photo{
+    height: 85px;
+    width: 85px;
+}
